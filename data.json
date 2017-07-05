@@ -1,0 +1,32 @@
+[
+    {
+        "name": "CAMARA_0",
+        "id": "foscam-0",
+        "ip": "192.168.0.102",
+        "protocol": "rtsp",
+        "port": ":554/",
+        "credentials": {
+            "username": "Witness",
+            "password": "witness1"
+        },
+        "quality": {
+            "high": "videoMain",
+            "low": "videoSub"
+        }
+    },
+    {
+        "name": "CAMARA_1",
+        "id": "foscam-1",
+        "ip": "192.168.0.103",
+        "protocol": "rtsp",
+        "port": ":554/",
+        "credentials": {
+            "username": "Witness",
+            "password": "witness1"
+        },
+        "quality": {
+            "high": "videoMain",
+            "low": "videoSub"
+        }
+    }	
+]
