@@ -6,11 +6,8 @@ var chokidar = require('chokidar')
 var FormData = require('form-data')
 var io       = require('socket.io-client')
 var express  = require('express')
-var monkey   = require('node-monkey')()
 
 var cameras = require('../data.json');
-
-monkey.attachConsole();
 
 function makeCameraUrl(camera) {
       camera.url = camera.protocol + '://' + camera.credentials.username + ':' + camera.credentials.password + '@' + camera.ip + camera.port + camera.quality.low
